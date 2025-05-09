@@ -1,2 +1,6 @@
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+meter_data_filtered.parquet filter=lfs diff=lfs merge=lfs -text
+meter_with_temp.parquet filter=lfs diff=lfs merge=lfs -text
 smart-meter-analytics-project/data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
 smart-meter-analytics-project/data/combinedmeters/*.parquet filter=lfs diff=lfs merge=lfs -text
