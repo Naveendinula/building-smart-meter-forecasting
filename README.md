@@ -24,6 +24,20 @@ We:
 | Building metadata  | `data/metadata/metadata.csv`      | `building_id`, `timezone`, `site_id`, `lat`, `lng`, `sqm`, `primaryspaceusage` |
 | Hourly weather     | `data/weather/weather.csv`        | `timestamp`, `site_id`, `airTemperature`                                       |
 
+## Data Source
+
+This project uses the open‑data **Building Data Genome Project 2 (BDG2)**  
+<https://github.com/buds-lab/building-data-genome-project-2>  
+provided by the Building Urban Data Science (BUDS) Lab.
+
+> **Citation**  
+> Miller C., Kathirgamanathan A., Picchetti B. *et al.*  
+> **“The Building Data Genome Project 2: Energy meter data from the ASHRAE Great Energy Predictor III competition.”**  
+> *Scientific Data* 7, 368 (2020).  
+> <https://doi.org/10.1038/s41597-020-00712-x>
+
+BDG2 is released under the **GNU General Public License v3.0**. 
+
 ## Repository Structure
 
 ```
